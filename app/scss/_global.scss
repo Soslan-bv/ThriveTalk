@@ -1,0 +1,26 @@
+$lar-r: "Larsseit-Regular", sans-serif;
+body {
+    font-family: $lar-r;
+    font-size: 24px;
+    line-height: 34px;
+    color: #fff;
+    
+}
+.container {
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container__left {
+    justify-content: flex-start;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+p {
+    margin: 0;
+}
